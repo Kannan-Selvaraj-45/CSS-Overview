@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+div {
+  background-color: cadetblue;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+  border-style: dashed;
+}
+div button:first-child {
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 0;
+  cursor: pointer;
+}
+div button:last-child {
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 0;
+  cursor: pointer;
+}
